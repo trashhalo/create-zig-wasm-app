@@ -2,7 +2,7 @@ pkgs:
   create-zig-wasm-app:
     version: 0.0.1
     license: MIT
-    source_url: "https://github.com/trashhalo/zig-syscall-js"
+    source_url: "https://github.com/trashhalo/create-zig-wasm-app"
     tags: wasm
     root: src/main.zig
     files:
