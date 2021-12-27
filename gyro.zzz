@@ -1,0 +1,17 @@
+pkgs:
+  create-zig-wasm-app:
+    version: 0.0.1
+    license: MIT
+    source_url: "https://github.com/trashhalo/zig-syscall-js"
+    tags: wasm
+    root: src/main.zig
+    files:
+      README.md
+      LICENSE
+      src/*.zig
+deps:
+  wapc:
+    git:
+      url: "https://github.com/trashhalo/wapc-guest-zig"
+      ref: master
+      root: wapc.zig
